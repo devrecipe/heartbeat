@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY package.json .
 COPY config.json .
 COPY index.js .
-COPY public .
+COPY public public
 
 RUN npm install
 
