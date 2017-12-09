@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+
+service:
+  - docker
+
+install:
+  - docker build -t devrecipe/heartbeat .
