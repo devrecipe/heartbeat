@@ -30,8 +30,8 @@ Create a `config.json` file that contains an array with documents in the followi
 After writing the configuration file, copy it to the heartbeat container and restart it so changes can take effect
 
 ```
-docker container cp config.json heartbeat
-docker contianer restart heartbeat
+docker container cp config.json heartbeat:/usr/src/app/config.json
+docker container restart heartbeat
 ```
 
 ## Contributors
