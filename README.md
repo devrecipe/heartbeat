@@ -1,10 +1,10 @@
 # Heartbeat
 
-![Travis CI build status](https://img.shields.io/travis/devrecipe/heartbat.svg)
-![Docker build status](https://img.shields.io/docker/build/devrecipe/heartbat.svg)
-![Docker pulls count](https://img.shields.io/docker/pulls/devrecipe/heartbat.svg)
-![Docker stars count](https://img.shields.io/docker/stars/devrecipe/heartbat.svg)
-![License](https://img.shields.io/github/license/devrecipe/heartbat.svg)
+![Travis CI build status](https://img.shields.io/travis/devrecipe/heartbeat.svg)
+![Docker build status](https://img.shields.io/docker/build/devrecipe/heartbeat.svg)
+![Docker pulls count](https://img.shields.io/docker/pulls/devrecipe/heartbeat.svg)
+![Docker stars count](https://img.shields.io/docker/stars/devrecipe/heartbeat.svg)
+![License](https://img.shields.io/github/license/devrecipe/heartbeat.svg)
 
 A very basic minimal web app that keeps an eye on running nodes
 
