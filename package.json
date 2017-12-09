@@ -1,0 +1,18 @@
+{
+  "name": "heartbeat",
+  "version": "1.0.0",
+  "description": "A very basic minimal web app that keeps an eye on running nodes",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

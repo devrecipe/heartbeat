@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+
+.align-middle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.status {
+    height: 200px;
+    width: 100%;
+    margin-top: 24px;
+    color: white;
+    text-align: center;
+}
+
+.status.loading {
+    background: #bdc3c7;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    position: relative;
+    color: #7f8c8d;
+}
+
+.status.healthy {
+    background: #2ecc71;
+}
+
+.status.unhealthy {
+    background: #f39c12;
+}
+
+.status.dead {
+    background: #e74c3c;
+}
+
+h1, h4 {
+    margin: 0px;
+    font-weight: 100;
+}
+
+h4 {
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+
+.status.loaidng h4 {
+    margin: 0px;
+}
+
+p {
+    margin-top: 24px;
+}
+
+@keyframes placeHolderShimmer {
+    0% { background-position: -468px 0 }
+    100% { background-position: 468px 0 }
+}
